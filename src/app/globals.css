@@ -6,6 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --principal-rgb: 10,0,181,1;
+  --secundario-rgb: 57,57,255,1;
+  --secundario-rgb-ult: 0,212,255,1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,4 +33,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.color{
+  color: rgb(var(--principal-rgb));
+}
+
+.color-secundario{
+  color: rgb(var(--secundario-rgb));
+}
+
+.color-secundario-ult{
+  color: rgb(var(--secundario-rgb-ult));
 }
