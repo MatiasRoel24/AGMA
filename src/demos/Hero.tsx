@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "../ui/hero-highlight";
+import { HeroHighlight, Highlight } from "../components/ui/hero-highlight";
 
 export function Hero() {
   return (
@@ -20,10 +20,9 @@ export function Hero() {
         }}
         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-white dark:text-black max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto"
       >
-        With insomnia, nothing&apos;s real. Everything is far away. Everything
-        is a{" "}
+        Construimos tu sitio web y manejamos tus redes sociales para que {" "}
         <Highlight className="text-white dark:text-black">
-          copy, of a copy, of a copy.
+          tu marca se destaque
         </Highlight>
       </motion.h1>
     </HeroHighlight>

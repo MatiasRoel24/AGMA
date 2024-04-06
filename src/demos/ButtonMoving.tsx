@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Button } from "../ui/moving-border";
+import { Button } from "../components/ui/moving-border";
 
 export function ButtonMoving() {
 
