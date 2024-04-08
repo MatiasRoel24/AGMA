@@ -1,20 +1,19 @@
 "use client";
 
-import { Fragment } from 'react'
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image';
 import logo from "../../public/logo.png"
 const navigation = [
   { name: 'Inicio', href: '#', current: true },
-  { name: 'Proyectos', href: '#', current: false },
+  { name: 'Proyectos', href: '#Proyectos', current: false },
   { name: 'Redes', href: '#', current: false },
   { name: 'Contactános', href: '#', current: false },
 ]
 
 function classNames(...classes: (string | undefined)[]): string {
     return classes.filter(Boolean).join(' ');
-  }
+}
   
 export default function Example() {
   

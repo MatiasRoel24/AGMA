@@ -46,3 +46,7 @@ body {
 .color-secundario-ult{
   color: rgb(var(--secundario-rgb-ult));
 }
+
+.vh-120{
+  height: 120vh;
+}

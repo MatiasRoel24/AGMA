@@ -4,10 +4,10 @@ import imagen1 from "../../../public/imagen1.avif"
 export  function Projects() {
     return (
 
-    <div className="h-screen w-full bg-black grid grid-cols-1 place-items-center">
+    <div className="h-screen w-full bg-slate-950 grid grid-cols-1 place-items-center">
         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">Proyectos</h1>
         <div className=" grid grid-cols-3 gap-10 place-items-center">
-            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700" id="Proyectos">
                 <a href="#">
                     <Image className="rounded-t-lg" src= {imagen1} alt="" height="1080" width="1920" />
                 </a>
