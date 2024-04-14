@@ -13,14 +13,14 @@ export function Barra() {
       <div className="relative isolate flex items-center gap-x-6 overflow-hidden bg-black px-6 py-2 sm:px-3.5 sm:before:flex-1 w-full">
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
           <p className="text-sm leading-6 text-zinc-50">
-            <strong className="font-bold">50% OFF EN DESARROLLO WEB</strong>
+            <strong className="font-bold">30% OFF EN TODOS NUESTROS PAQUETES</strong>
             <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
               <circle cx="1" cy="1" r="1"></circle>
             </svg>
-            Unite a *** con un 50% off durante el mes de ****
+            Unite a SDS con un 30% off durante el mes de ****
           </p>
           <a href="https://meetings.hubspot.com/digital-brain-studio?uuid=6ffcaaa8-8220-48f0-891a-9c85350900cb" target="_blank"
-            className="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">
+            className="flex-none rounded-full bg-cyan-500 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-cyan-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-900">
             Quiero ser parte <span aria-hidden="true">→</span>
           </a>
         </div>

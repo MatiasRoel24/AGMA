@@ -2,22 +2,20 @@
 
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import Image from 'next/image';
-import logo from "../../public/logo.png"
+
 const navigation = [
-  { name: 'Inicio', href: '#', current: true },
-  { name: 'Proyectos', href: '#Proyectos', current: false },
-  { name: 'Redes', href: '#', current: false },
-  { name: 'Contactános', href: '#', current: false },
+  { name: 'Inicio', href: '#Home', current: true },
+  { name: 'Testimonios', href: '#Testimonials', current: false },
+  { name: 'Servicios', href: '#Offers', current: false },
+  { name: 'Precios', href: '#Price', current: false },
+  { name: 'Contactos', href: '#Contact', current: false },
 ]
 
 function classNames(...classes: (string | undefined)[]): string {
     return classes.filter(Boolean).join(' ');
 }
   
-export default function Example() {
-  
-
+export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-black">
       {({ open }) => (
@@ -38,17 +36,16 @@ export default function Example() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start lg:justify-between">
                 <div className="h-auto w-auto">
-                  <Image className="h-8 w-auto" alt="logo" src={logo} />
+                  <span className='text-white font-bold'>SDS - <span className='text-cyan-500'>Skyward Digital Solutions</span></span>
                 </div>
-                <div className="hidden sm:ml-6 sm:block flex ">
+                <div className="hidden sm:ml-6 sm:block flex">
                   <div className="flex space-x-10">
                     {navigation.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-cyan-900 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
+                          'rounded-md px-3 py-2 text-sm font-medium hover:bg-cyan-800 text-white'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >

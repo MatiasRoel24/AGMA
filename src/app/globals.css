@@ -35,18 +35,6 @@ body {
   }
 }
 
-.color{
-  color: rgb(var(--principal-rgb));
-}
-
-.color-secundario{
-  color: rgb(var(--secundario-rgb));
-}
-
-.color-secundario-ult{
-  color: rgb(var(--secundario-rgb-ult));
-}
-
 .vh-120{
   height: 120vh;
 }
