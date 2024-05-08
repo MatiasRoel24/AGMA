@@ -2,11 +2,12 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-cyan-900 text-white py-7 flex flex-col mt-24 ">
+    <footer className="bg-cyan-900 text-white py-7 flex flex-col  mt-24  ">
       <div className="flex justify-center">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-20 lg:gap-40 ">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-24 lg:gap-[10rem] xl:gap-[20rem] justify-center items-center ">
+          
           {/* Columna izquierda: Formulario de contacto */}
-          <div className="lg:w-full text-lg ">
+          <div className=" text-lg ">
             <h2 className="font-bold mb-4">Contáctanos</h2>
             <form className="max-w-sm">
               <div className="mb-3">
@@ -26,8 +27,8 @@ const Footer = () => {
           </div>
 
           {/* Columna del medio: Redes sociales */}
-          <div className="lg:w-full flex flex-col items-center justify-center">
-            <h2 className="font-bold mb-4">Síguenos en redes sociales</h2>
+          <div className=" flex flex-col items-center justify-center">
+            <h2 className="font-bold mb-4 text-center">Síguenos en redes sociales</h2>
             <div className="flex space-x-4">
               <a href="#" className="text-3xl text-white hover:text-gray-300">
                 <FaFacebook />
@@ -42,7 +43,7 @@ const Footer = () => {
           </div>
 
           {/* Columna derecha: Menú de navegación */}
-          <div className="lg:w-full text-sm">
+          <div className=" text-sm">
             <h2 className="font-bold mb-4">Menú de navegación</h2>
             <ul>
               <li className="mb-2"><a href="#Home" className="text-white hover:text-gray-300">Inicio</a></li>

@@ -37,7 +37,7 @@ export default function Navbar() {
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start lg:justify-between">
                 <div className="h-auto w-auto">
-                  <span className='text-white font-bold'>SDS - <span className='text-cyan-500'>Skyward Digital Solutions</span></span>
+                  <span className='text-white font-bold'>SDS - <span className='text-cyan-900'>Skyward Digital Solutions</span></span>
                 </div>
                 <div className="hidden sm:ml-6 sm:block flex">
                   <div className="flex space-x-10">

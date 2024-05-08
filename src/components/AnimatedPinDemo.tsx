@@ -4,7 +4,7 @@ import { PinContainer } from "./ui/3d-pin";
 import Image from "next/image";
 export function AnimatedPinDemo() {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center ">
+    <div className="h-auto w-auto grid grid-col lg:grid-cols-2 gap-24 items-center justify-center mb-24">
       <PinContainer
         title="Harmony Haven"
         href="linktr.ee/harmonyhavenba"

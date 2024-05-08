@@ -8,7 +8,7 @@ import Footer from "./Footer/page";
 
 export default function Home() {
   return (
-    <div className="bg-slate-950">
+    <div className="bg-black">
       <Navbar />
       <Hero />
       <CardHoverEffectDemo />
