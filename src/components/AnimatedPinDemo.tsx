@@ -14,7 +14,7 @@ export function AnimatedPinDemo() {
            Harmony Haven
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-cyan-200 ">
+            <span className="text-zinc-500">
               Centro de estética en San Miguel del Monte
             </span>
           </div>
@@ -32,7 +32,7 @@ export function AnimatedPinDemo() {
             Kau Chaink
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-cyan-200  ">
+            <span className="text-zinc-500">
               Casa de campo en San Miguel del Monte
             </span>
           </div>
@@ -50,7 +50,7 @@ export function AnimatedPinDemo() {
             Cerrajería Porteña
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-cyan-200 ">
+            <span className="text-zinc-500">
               La mejor cerrajería de <br />buenos aires
             </span>
           </div>
@@ -68,7 +68,7 @@ export function AnimatedPinDemo() {
             Ascensores Tecnics
           </h3>
           <div className="text-base !m-0 !p-0 font-normal">
-            <span className="text-cyan-200  ">
+            <span className="text-zinc-500">
              Subite <br /> ahora
             </span>
           </div>

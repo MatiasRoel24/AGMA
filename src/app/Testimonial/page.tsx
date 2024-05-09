@@ -1,14 +1,27 @@
-
+import Image from "next/image"
+import Fondo1 from "../../../public/fondofp.jpg"
+import Fondo2 from "../../../public/programmer-removebg-preview.png"
 export function Testimonial() {
     return (
-        <div className="pt-10 bg-slate-950 " id="Testimonials">
-            <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="relative pt-10 bg-black" id="Testimonials">
+        {/* Imagen de fondo */}
+        <div className="absolute inset-0 z-0 opacity-40">
+            <Image
+                src={Fondo1}
+                alt="Fondo"
+                layout="fill"
+                objectFit="cover"
+                placeholder="blur"
+                quality={100}
+            />
+        </div>
+            <div className="relative z-10 mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Testimonios</h2>
                     <p className="mt-2 text-lg leading-8 text-slate-200">Reseñas y criticas acerca de algunos de nuestros clientes.</p>
                 </div>
                 <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                    <article className="flex max-w-xl flex-col items-start justify-between">
+                <article className="flex max-w-xl flex-col items-start justify-between">
                         <div className="flex items-center gap-x-4 text-xs">
                             <time className="text-gray-500">Mar 16, 2020 📆</time>
                             <a href="#" className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium bg-cyan-600 text-white">Marketing</a>
@@ -16,7 +29,7 @@ export function Testimonial() {
                         <div className="group relative">
                             <h3 className="mt-3 text-lg font-semibold leading-6 text-white">
                                 <a href="#">
-                                    <span className="absolute inset-0 "></span>
+                                    <span className="absolute inset-0"></span>
                                     Boost your conversion rate
                                 </a>
                             </h3>
@@ -33,6 +46,17 @@ export function Testimonial() {
                                     </p>
                                     <p className="text-gray-600">Co-Founder / CTO</p>
                                 </div>
+                        </div>
+                        <div className="h-[20rem] w-[20rem] mt-24">
+                             <div className="diff aspect-[16/9]">
+                                <div className="diff-item-1">
+                                    <Image src={Fondo1} alt="hola" />
+                                </div>
+                                <div className="diff-item-2">
+                                    <Image src={Fondo2} alt="hola" />
+                                </div>
+                                <div className="diff-resizer"></div>
+                              </div>
                         </div>
                     </article>
                     <article className="flex max-w-xl flex-col items-start justify-between">
@@ -61,6 +85,17 @@ export function Testimonial() {
                                     <p className="text-gray-600">Co-Founder / CTO</p>
                                 </div>
                         </div>
+                        <div className="h-[20rem] w-[20rem] mt-24">
+                             <div className="diff aspect-[16/9]">
+                                <div className="diff-item-1">
+                                    <Image src={Fondo1} alt="hola" />
+                                </div>
+                                <div className="diff-item-2">
+                                    <Image src={Fondo2} alt="hola" />
+                                </div>
+                                <div className="diff-resizer"></div>
+                              </div>
+                        </div>
                     </article>
                     <article className="flex max-w-xl flex-col items-start justify-between">
                         <div className="flex items-center gap-x-4 text-xs">
@@ -87,10 +122,22 @@ export function Testimonial() {
                                     </p>
                                     <p className="text-gray-600">Co-Founder / CTO</p>
                                 </div>
+                        </div>
+                        <div className="h-[20rem] w-[20rem] mt-24">
+                             <div className="diff aspect-[16/9]">
+                                <div className="diff-item-1">
+                                    <Image src={Fondo1} alt="hola" />
+                                </div>
+                                <div className="diff-item-2">
+                                    <Image src={Fondo2} alt="hola" />
+                                </div>
+                                <div className="diff-resizer"></div>
+                              </div>
                         </div>
                     </article>
                 </div>
             </div>
+            
         </div>
     )
 } 
