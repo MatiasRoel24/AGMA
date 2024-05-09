@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Fondo1 from "../../../public/fondofp.jpg"
+import Fondo1 from "../../../public/fondo2.jpg"
 import Fondo2 from "../../../public/programmer-removebg-preview.png"
 export function Testimonial() {
     return (

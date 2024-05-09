@@ -9,8 +9,11 @@
   --principal-rgb: 10,0,181,1;
   --secundario-rgb: 57,57,255,1;
   --secundario-rgb-ult: 0,212,255,1;
+  --primario: #38859D;
 }
-
+.color-primary {
+  color:var(--primario);
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
